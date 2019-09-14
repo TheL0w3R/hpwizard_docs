@@ -1,7 +1,7 @@
 module.exports = {
   title: 'HPWizard Docs',
   description: 'Documentation for HPWizard plugin',
-  plugins: ['@vuepress/pwa', '@vuepress/back-to-top'],
+  plugins: ['@vuepress/back-to-top'],
   themeConfig: {
     sidebar: [
       {
