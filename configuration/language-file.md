@@ -2,6 +2,8 @@
 
 This file holds almost all the messages that can be translated. Words that start and ends with a `%` are placeholders for dinamic values, they'll be replaced dinamically on runtime.
 
+The default translation always includes all the placeholders HPWizard will search for on that specific message, so, don't try to use `%player%` on a message that doesn't come with it as a default value.
+
 You can use [color codes](http://minecraft.tools/en/color-code.php) as well.
 
 This is the default content:
@@ -191,6 +193,8 @@ brooms:
         description: Sets your broom speed to|the 100% of it's maximum speed.
 ```
 
+Since this file is only meant to message translation, I won't explan every single entry, I think is easy to understand what "doesnotexist" under "general", "commands" does. (However, if you are having troubles understanding somerhing related to this, feel free to contact me on Spigot!).
+
 ## Command translations
 
 Under the `commands` entry, they're messages used by the plugin commands. Each command has it's own messages under it's own entry, change them to your liking!
@@ -198,3 +202,19 @@ Under the `commands` entry, they're messages used by the plugin commands. Each c
 ## Sorting Hat messages
 
 Messages used by the automatic sorting proccess, they can be located under the `sortinghat` entry, they'll be triggered when a Muggle walks to the Sorting Hat location, more information on the Sorting Hat tutorial.
+
+## Wands
+
+Found under the `wands` entry, here you can customize the colors and text used to display the wand information in the item itself (This doesn't apply to the wand's description, as you can customize it's colors by using color codes, more on that in the commands section).
+
+## Floo
+
+The entries to configure the floo system messages are under the `floo` entry, to customize the item used as "floo powder" head over to [the main config file](/configuration/#item-settings).
+
+## Spells
+
+You can find customization options for spells under the `spells` entry, as everything in this file, the entry names are self-explanatory.
+
+## Brooms
+
+Here, under the `brooms` entry, you can find everything related to translate messages thrown by the Brooms module.

@@ -17,7 +17,11 @@ module.exports = {
         collapsable: false,
         children: [
           '/configuration/',
-          '/configuration/language-file'
+          '/configuration/config-file',
+          '/configuration/language-file',
+          '/configuration/flooconfig-file',
+          '/configuration/houseconfig-file',
+          '/configuration/spellconfig-file'
         ]
       },
     ]
